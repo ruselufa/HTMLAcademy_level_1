@@ -1,0 +1,29 @@
+html,
+body {
+    background-color: #171836;
+    margin: 0;
+}
+
+.container {
+    width: 1200px;
+}
+
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    &-item {
+        color: #fff;
+    }
+    &-link {
+        color: #fff;
+    }
+}
